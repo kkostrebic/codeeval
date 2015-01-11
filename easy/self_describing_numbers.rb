@@ -1,5 +1,6 @@
 # SELF DESCRIBING NUMBERS
 #
+# CHALLENGE DESCRIPTION:
 # A number is a self-describing number when (assuming digit positions are labeled 0 to N-1), the digit in each position
 # is equal to the number of times that that digit appears in the number.
 #
@@ -11,7 +12,6 @@
 # 1210
 #
 # OUTPUT SAMPLE:
-#
 # If the number is a self-describing number, print out 1. If not, print out 0. E.g.
 #                                                                                      1
 # 0
@@ -22,7 +22,6 @@
 # And the position '3' has value 0 and there are zero 3's.
 
 # SOLUTION:
-
 File.foreach(ARGV[0]) do |line|
   numbers = line.rstrip.split(//)
 
