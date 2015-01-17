@@ -17,6 +17,8 @@
 #
 # 8
 # 10
+#
+# SOLUTION:
 File.open(ARGV[0]).each_line do |line|
   line = line.strip
   sentence = line[0..-3].strip
